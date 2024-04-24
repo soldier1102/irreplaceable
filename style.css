@@ -1,0 +1,66 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.frame .div {
+  justify-content: center;
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .text-wrapper {
+  font-family: "MaruBuriOTF-Bold", Helvetica;
+  color: #4d91a6;
+  font-size: 36px;
+  letter-spacing: -1.08px;
+  line-height: 46px;
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-weight: 700;
+}
+
+.frame .div-2 {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.frame .p {
+  font-family: "NanumGothicOTF-Bold", Helvetica;
+  color: #222222;
+  font-size: 22px;
+  letter-spacing: -0.66px;
+  line-height: 32px;
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-weight: 700;
+}
+
+.frame .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "NanumGothicOTF-Regular", Helvetica;
+  font-weight: 400;
+  color: #222222;
+  font-size: 18px;
+  letter-spacing: -0.54px;
+  line-height: 28px;
+}
